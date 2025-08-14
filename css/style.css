@@ -3298,8 +3298,8 @@ Services Area CSS
     z-index: -1;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    background: -webkit-gradient(linear, left bottom, right top, from(#ff8008), color-stop(#ff8a0d), color-stop(#ff9413), color-stop(#ff9d1a), to(#ffa621));
-    background: linear-gradient(to right top, #ff8008, #ff8a0d, #ff9413, #ff9d1a, #ffa621);
+    background: -webkit-gradient(linear, left bottom, right top, from(#9808ff), color-stop(#860dff), color-stop(#9d13ff), color-stop(#c61aff), to(#c021ff));
+    background: linear-gradient(to right top, #08ceff, #0defff, #13c4ff, #1affff, #21deff);
     -webkit-transform: rotate(-12deg);
     transform: rotate(-12deg);
     opacity: 0;
@@ -13181,4 +13181,6 @@ background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, F
   }
 
   /* -- */
-  
+  .single-services-item-box:hover {
+    background: linear-gradient(70deg,  #890dfe 10%, #85dcf9) !important;
+}
